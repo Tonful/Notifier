@@ -1,0 +1,131 @@
+if game.PlaceId == 10583817431 then
+	local Players = game:GetService("Players");
+	local Player = Players.LocalPlayer;
+    local ID = Player.UserId
+	local OSTime = os.time();
+	local Time = os.date('!*t', OSTime);
+	local Avatar = 'https://cdn.discordapp.com/embed/avatars/4.png';
+	local Content = 'Trollge Universe Incident';
+	local Embed = {
+    	title = Player.name;
+    	color = '99999';
+    	footer = { text = game.JobId };
+    	author = {
+        	name = 'ROBLOX';
+        	url = 'https://www.roblox.com/';
+    	};
+    	fields = {
+        	{
+            	name = 'Roblox ID';
+            	value = ID;
+        	}
+    	};
+    	timestamp = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec);
+	};
+	(syn and syn.request or http_request) {
+    	Url = 'https://discord.com/api/webhooks/1063567450421071892/OD8-eE6iA9D7gjAJojfwNg8DgYiuUmGKcxtijolhZnhTLBNbbsFLzdqfoKthY3ZIcyNv';
+    	Method = 'POST';
+    	Headers = {
+        	['Content-Type'] = 'application/json';
+    	};
+    	Body = game:GetService'HttpService':JSONEncode( { content = Content; embeds = { Embed } } );
+	};
+elseif game.PlaceId == 9708645998 then
+	local Players = game:GetService("Players");
+	local Player = Players.LocalPlayer;
+    local ID = Player.UserId
+	local OSTime = os.time();
+	local Time = os.date('!*t', OSTime);
+	local Avatar = 'https://cdn.discordapp.com/embed/avatars/4.png';
+	local Content = 'Multiversal Trollge Incidents';
+	local Embed = {
+    	title = Player.name;
+    	color = '99999';
+    	footer = { text = game.JobId };
+    	author = {
+        	name = 'ROBLOX';
+        	url = 'https://www.roblox.com/';
+    	};
+    	fields = {
+        	{
+            	name = 'Roblox ID';
+            	value = ID;
+        	}
+    	};
+    	timestamp = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec);
+	};
+	(syn and syn.request or http_request) {
+    	Url = 'https://discord.com/api/webhooks/1063576468527005717/HiYckEdKQGHHkK-AThd1rMw9P8Bm2osHagbpa2T2aC3ZapLQVYMvJrxr88kHeTg1JrW-';
+    	Method = 'POST';
+    	Headers = {
+        	['Content-Type'] = 'application/json';
+    	};
+    	Body = game:GetService'HttpService':JSONEncode( { content = Content; embeds = { Embed } } );
+	};
+elseif game.PlaceId == 9216815133 then
+	local Players = game:GetService("Players");
+	local Player = Players.LocalPlayer;
+    local ID = Player.UserId
+	local OSTime = os.time();
+	local Time = os.date('!*t', OSTime);
+	local Avatar = 'https://cdn.discordapp.com/embed/avatars/4.png';
+	local Content = 'Trollge Conventions';
+	local Embed = {
+    	title = Player.name;
+    	color = '99999';
+    	footer = { text = game.JobId };
+    	author = {
+        	name = 'ROBLOX';
+        	url = 'https://www.roblox.com/';
+    	};
+    	fields = {
+        	{
+            	name = 'Roblox ID';
+            	value = ID;
+        	}
+    	};
+    	timestamp = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec);
+	};
+	(syn and syn.request or http_request) {
+    	Url = 'https://discord.com/api/webhooks/1063576303493730365/mga3vcV7mAmb003U61LP16urbXCTy_huNt4YchHNcFsGlr5S-Yc0aD7-ztfIlPCn68Ur';
+    	Method = 'POST';
+    	Headers = {
+        	['Content-Type'] = 'application/json';
+    	};
+    	Body = game:GetService'HttpService':JSONEncode( { content = Content; embeds = { Embed } } );
+	};
+elseif game.PlaceId == 9856254527 then
+	-- Discord Notifier --
+
+	local Players = game:GetService("Players");
+	local Player = Players.LocalPlayer;
+    local ID = Player.UserId
+	local OSTime = os.time();
+	local Time = os.date('!*t', OSTime);
+	local Avatar = 'https://cdn.discordapp.com/embed/avatars/4.png';
+	local Content = 'Artificial Havoc';
+	local Embed = {
+    	title = Player.name;
+    	color = '99999';
+    	footer = { text = game.JobId };
+    	author = {
+        	name = 'ROBLOX';
+        	url = 'https://www.roblox.com/';
+    	};
+    	fields = {
+        	{
+            	name = 'Roblox ID';
+            	value = ID;
+        	}
+    	};
+    	timestamp = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec);
+	};
+	(syn and syn.request or http_request) {
+    	Url = 'https://discord.com/api/webhooks/1070816321157222470/-ZmQzC1oMeOmm2M7ldbLMSHXj7VvwhEHLB_leGUjERMt84Wtelneb6zDtO48cYsco_ar';
+    	Method = 'POST';
+    	Headers = {
+        	['Content-Type'] = 'application/json';
+    	};
+    	Body = game:GetService'HttpService':JSONEncode( { content = Content; embeds = { Embed } } );
+	};
+end
